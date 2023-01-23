@@ -2,27 +2,30 @@
 
 body{
     max-width: 100%;
-    margin : 0 ;
+    margin : 0px 30px 0px 60px ;
     background: #F3F5FC;
     color:#0A3871;
 }
 
 
-.logo{
-    width: 120px;
-    height: 48px;
-    position:relative;
-    top:40px;
-    right:0;
-}
-
 main{
     display:flex;
 }
 
+.logo{
+    display:inline;
+    width: 250px;
+    height: 150px;
+    
+    border:none;
+    border-radius: 500px;
+    position:relative;
+    left:500px;
+}
+
 .text-area{
     
-    margin:60px 30px ;
+    margin:25px 30px 30px 10px ;
     border:none;
     border-radius: 10px;
     background:#F3F5FC;
@@ -32,11 +35,10 @@ main{
     line-height: 150%;
     color:#0A3871;
 
-    
 }
 
 .mensaje{
-    margin:55px 15px 0px 80px;
+    margin: 15px 5px 10px;
     padding-top: 20px;
     border:none;
     border-radius: 60px;
@@ -68,14 +70,14 @@ main{
     border-radius: 24px ;
     cursor: pointer;
     position:relative;
-    bottom:20px;
-    left:350px;
+    bottom:30px;
+    left:250px;
 }
 .gif{
     display:flex;
     position:relative;
-    bottom:350px;
-    left:520px;
+    bottom:700px;
+    left:700px;
 
 }
 
