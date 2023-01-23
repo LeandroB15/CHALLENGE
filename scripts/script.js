@@ -1,9 +1,12 @@
 const textArea= document.querySelector(".text-area");
 const mensaje=document.querySelector(".mensaje");
-let copybtn = document.getElementById("copy-btn");
 
+document.querySelector(".copy-btn").addEventListener("click",function(){
+    let copyText = document.querySelector(".mensaje").value
+    navigator.clipboard.writeText(copyText).then(()=>{
+    })
+})
 
-navigator.clipboard.readText().then((copybtn) => document.getElementById("outbox").innerText = copybtn);
 
 /*La letra "e" es convertida para "enter"
 La letra "i" es convertida para "imes"
