@@ -23,7 +23,7 @@ main{
 }
 
 .text-area{
-    width: 577;
+    width: 577px;
     margin:25px 30px 30px 10px ;
     border:none;
     border-radius: 10px;
@@ -37,7 +37,7 @@ main{
 }
 
 .mensaje{
-    width: 577;
+    width: 577px;
     margin: 15px 5px 10px;
     padding-top: 20px;
     border:none;
