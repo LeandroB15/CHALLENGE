@@ -16,7 +16,6 @@ main{
     display:inline;
     width: 250px;
     height: 150px;
-    
     border:none;
     border-radius: 500px;
     position:relative;
@@ -24,7 +23,7 @@ main{
 }
 
 .text-area{
-    
+    width: 577;
     margin:25px 30px 30px 10px ;
     border:none;
     border-radius: 10px;
@@ -38,6 +37,7 @@ main{
 }
 
 .mensaje{
+    width: 577;
     margin: 15px 5px 10px;
     padding-top: 20px;
     border:none;
@@ -152,7 +152,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
 @media screen and (max-width:480px){
 
     body{
-        width: 100%;
+        width: 60%;
     }
     header{
         display:flex;
@@ -179,7 +179,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
 
     .btn-encriptar{
         width:350px;
-        margin:8px 10px 8px 0px;
+        margin:10px 10px 10px 0px;
     }
 
 }
