@@ -9,8 +9,6 @@
         <link rel="stylesheet" href="scripts/reset.css">
         <link rel="stylesheet" href="scripts/style.css">
         
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-
     </head>
 
     <body>
@@ -25,10 +23,16 @@
 
         <main>
             <div class="gif">
-                <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
-                <lord-icon src="https://cdn.lordicon.com/nocovwne.json" trigger="hover" style="width:100px;height:100px"></lord-icon>
+                <script src="https://cdn.lordicon.com/fudrjiwc.js">
+        
+                </script>
+                <lord-icon 
+                    src="https://cdn.lordicon.com/nocovwne.json"    trigger="loop"
+                    delay="4500"   
+                    style="width:100px;height:100px">
+                </lord-icon>
             </div>
-            
+
             <section>
 
                 <textarea class="text-area" rows="9.5" cols="40" required autofocus placeholder="Ingrese el texto aqui"></textarea>
@@ -39,7 +43,7 @@
 
                 <div class="botones">
                     <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
-                    <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
                 </div>
             </section>
 
@@ -51,8 +55,47 @@
             </section>
                 
         </main>
+        
+        <footer>
 
-    
+            <img class="logo2" src="./imagenes/Logo.png">
+            <img class="foto" src="./imagenes/1669415520352.jpg">
+
+            <div class="github">
+                <a href="https://github.com/LeandroB15" >
+                    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/nobciafz.json"
+                        trigger="loop-on-hover"
+                        delay="200"
+                        style="width:100px;height:85px">
+                    </lord-icon>
+                </a>
+            </div>    
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/leandro-barrios-em/">
+                    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/gqdnbnwt.json"
+                        trigger="loop-on-hover"
+                        delay="200"
+                        style="width:100px;height:85px">
+                    </lord-icon>
+                </a>
+            </div>
+            <div class="monster">
+                
+                <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                <lord-icon
+                    src="https://cdn.lordicon.com/zygphpgt.json"
+                    trigger="loop"
+                    style="width:100px;height:85px">
+                </lord-icon>
+                
+            </div>    
+
+        </footer>
+
     </body>
 
     <script src="./scripts/script.js"></script>
